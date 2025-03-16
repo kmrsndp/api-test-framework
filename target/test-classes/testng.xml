@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Todo API Test Suite" parallel="classes" thread-count="3">
+    <test name="Todo API Tests">
+        <classes>
+            <class name="com.apitest.tests.TodoTest"/>
+            <class name="com.apitest.tests.TodoCreateTest"/>
+            <class name="com.apitest.tests.TodoUpdateTest"/>
+        </classes>
+    </test>
+</suite> 

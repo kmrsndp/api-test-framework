@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-16T17:41:09 IST" name="Todo API Test Suite" finished-at="2025-03-16T17:41:13 IST" duration-ms="3987">
+    <groups>
+    </groups>
+    <test started-at="2025-03-16T17:41:09 IST" name="Todo API Tests" finished-at="2025-03-16T17:41:13 IST" duration-ms="3987">
+      <class name="com.apitest.tests.TodoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]" started-at="2025-03-16T17:41:09 IST" name="setUp" finished-at="2025-03-16T17:41:09 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetAllTodos()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]" started-at="2025-03-16T17:41:09 IST" name="testGetAllTodos" finished-at="2025-03-16T17:41:10 IST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllTodos -->
+        <test-method signature="testGetNonExistentTodo()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]" started-at="2025-03-16T17:41:10 IST" name="testGetNonExistentTodo" finished-at="2025-03-16T17:41:11 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNonExistentTodo -->
+        <test-method signature="testGetTodoById()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]" started-at="2025-03-16T17:41:11 IST" name="testGetTodoById" finished-at="2025-03-16T17:41:11 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTodoById -->
+        <test-method signature="testGetTodosByUserId()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]" started-at="2025-03-16T17:41:11 IST" name="testGetTodosByUserId" finished-at="2025-03-16T17:41:12 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTodosByUserId -->
+      </class> <!-- com.apitest.tests.TodoTest -->
+      <class name="com.apitest.tests.TodoCreateTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]" started-at="2025-03-16T17:41:09 IST" name="setUp" finished-at="2025-03-16T17:41:09 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateTodoWithEmptyTitle()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]" started-at="2025-03-16T17:41:09 IST" name="testCreateTodoWithEmptyTitle" finished-at="2025-03-16T17:41:10 IST" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTodoWithEmptyTitle -->
+        <test-method signature="testCreateTodoWithMissingRequiredFields()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]" started-at="2025-03-16T17:41:10 IST" name="testCreateTodoWithMissingRequiredFields" finished-at="2025-03-16T17:41:11 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTodoWithMissingRequiredFields -->
+        <test-method signature="testCreateTodoWithValidData()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]" started-at="2025-03-16T17:41:11 IST" name="testCreateTodoWithValidData" finished-at="2025-03-16T17:41:12 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTodoWithValidData -->
+      </class> <!-- com.apitest.tests.TodoCreateTest -->
+      <class name="com.apitest.tests.TodoUpdateTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]" started-at="2025-03-16T17:41:09 IST" name="setUp" finished-at="2025-03-16T17:41:09 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]" started-at="2025-03-16T17:41:09 IST" name="setupTestData" finished-at="2025-03-16T17:41:10 IST" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method signature="testUpdateNonExistentTodo()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]" started-at="2025-03-16T17:41:10 IST" name="testUpdateNonExistentTodo" finished-at="2025-03-16T17:41:11 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateNonExistentTodo -->
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]" started-at="2025-03-16T17:41:11 IST" name="setupTestData" finished-at="2025-03-16T17:41:11 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method signature="testUpdateTodoFullUpdate()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]" started-at="2025-03-16T17:41:11 IST" name="testUpdateTodoFullUpdate" finished-at="2025-03-16T17:41:12 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateTodoFullUpdate -->
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]" started-at="2025-03-16T17:41:12 IST" name="setupTestData" finished-at="2025-03-16T17:41:12 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method signature="testUpdateTodoWithInvalidData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]" started-at="2025-03-16T17:41:12 IST" name="testUpdateTodoWithInvalidData" finished-at="2025-03-16T17:41:13 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateTodoWithInvalidData -->
+      </class> <!-- com.apitest.tests.TodoUpdateTest -->
+    </test> <!-- Todo API Tests -->
+  </suite> <!-- Todo API Test Suite -->
+</testng-results>

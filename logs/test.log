@@ -1,0 +1,1211 @@
+16:55:42.129 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+16:56:07.925 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+16:57:06.885 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+16:59:46.349 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:00:25.826 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:03:12.057 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:08:57.301 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:09:42.707 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:09:42.712 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:09:42.712 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:09:43.703 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:09:43.704 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:09:43.826 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:09:43.826 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:09:58.866 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:09:58.871 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:09:58.872 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:09:59.814 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:09:59.815 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:09:59.926 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:09:59.926 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:12:18.739 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:12:18.739 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:12:18.746 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:12:18.746 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:12:18.747 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:12:18.747 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:12:19.151 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:12:19.152 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:12:19.152 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:12:19.792 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:12:19.793 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:12:19.926 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:12:19.926 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:12:19.928 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:12:19.928 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:12:19.928 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:12:20.060 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code is 404
+17:12:20.752 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:12:20.753 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:12:20.829 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:12:20.830 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:13:17.853 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:13:17.853 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:13:17.858 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:13:17.858 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:13:17.858 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:13:17.858 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:13:18.165 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:13:18.165 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:13:18.165 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:13:18.165 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:13:18.165 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:13:18.165 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:14:58.032 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:14:58.032 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:14:58.038 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:14:58.038 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:14:58.038 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:14:58.038 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:14:58.420 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:14:58.420 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:14:58.420 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:14:59.080 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:14:59.081 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:14:59.081 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:14:59.082 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:14:59.082 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:14:59.201 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:14:59.202 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:14:59.571 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:14:59.572 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:14:59.641 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:14:59.642 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:18:44.617 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:18:44.624 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:18:44.624 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:18:44.624 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:18:44.625 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:18:44.625 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:18:44.625 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:18:45.020 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:18:45.020 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:18:45.020 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:18:45.664 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:18:45.667 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:18:45.667 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:18:45.668 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:18:45.668 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:18:45.668 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:18:45.798 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:18:45.798 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:18:46.157 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:18:46.157 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:18:46.230 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:18:46.231 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:18:52.866 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:18:52.873 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:18:52.873 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:18:52.873 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:18:52.874 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:18:52.874 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:18:52.874 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:18:53.283 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:18:53.283 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:18:53.283 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:18:53.915 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:18:53.915 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:18:53.921 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:18:53.921 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:18:53.921 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:18:54.424 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:18:54.425 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:18:54.622 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:18:54.623 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:23:16.442 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:23:16.449 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:23:16.449 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:23:16.449 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:23:16.449 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:23:16.449 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:23:16.449 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:23:16.841 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:23:16.841 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:23:16.841 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:23:17.515 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:23:17.515 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:23:17.515 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:23:17.518 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:23:17.519 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:23:17.642 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:23:17.642 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:23:18.013 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:23:18.013 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:23:18.082 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:23:18.083 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:26:21.769 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:26:21.777 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:26:21.777 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:26:21.777 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:26:21.777 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:26:21.777 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:26:21.777 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:26:22.184 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:26:22.184 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:26:22.184 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:26:22.839 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:26:22.839 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:26:22.840 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:26:22.843 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:26:22.843 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:26:22.844 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:26:22.973 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:26:22.973 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:26:23.306 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:26:23.306 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:26:23.381 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:26:23.381 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:27:37.325 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:27:37.332 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:27:37.332 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:27:37.332 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:27:37.332 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:27:37.332 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:27:37.332 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:27:38.417 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:27:38.417 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:27:38.418 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:27:38.425 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:27:38.425 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:27:38.425 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:27:38.714 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:27:38.714 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:27:38.715 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:27:38.715 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:27:38.715 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:27:38.867 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:27:38.867 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:27:38.883 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:27:38.884 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:27:39.226 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:27:39.226 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:27:39.285 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:27:39.287 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:28:14.774 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:28:14.781 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:28:14.781 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:28:14.782 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:28:14.782 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:28:14.782 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:28:14.782 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:28:15.850 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:28:15.850 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:28:15.851 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:28:15.861 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Response body: {}
+17:28:15.861 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:28:15.863 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:28:15.863 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:28:15.863 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:28:16.145 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:28:16.145 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:28:16.146 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:28:16.146 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:28:16.146 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:28:16.347 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:28:16.347 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:28:16.362 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:28:16.362 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:28:16.604 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:28:16.604 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:28:16.613 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:28:16.614 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:29:08.432 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:29:08.438 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:29:08.438 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:29:08.438 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:29:08.438 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:29:08.438 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:29:08.439 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:29:09.458 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:29:09.458 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:29:09.459 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:29:09.467 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Response body: {}
+17:29:09.467 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:29:09.469 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:29:09.469 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:29:09.469 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:29:09.725 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:29:09.726 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:29:09.727 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:29:09.727 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:29:09.727 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:29:09.942 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:29:09.943 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:29:09.957 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:29:09.957 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:29:10.214 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:29:10.215 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:29:10.223 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:29:10.223 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:35:16.199 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:35:16.205 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:35:16.205 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:35:16.206 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:35:16.206 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:35:16.206 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:35:16.206 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:35:17.272 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:35:17.272 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:35:17.273 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:35:17.282 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Response body: {}
+17:35:17.282 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:35:17.284 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:35:17.284 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:35:17.284 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:35:17.555 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:35:17.556 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:35:17.557 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:35:17.557 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:35:17.557 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:35:17.754 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:35:17.754 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:35:17.768 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:35:17.768 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:35:18.046 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:35:18.047 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:35:18.057 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:35:18.058 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:36:05.250 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:36:05.257 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:36:05.257 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:36:05.257 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:36:05.258 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:36:05.258 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:36:05.258 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:36:06.400 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:36:06.400 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:36:06.401 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:36:06.410 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Response body: {}
+17:36:06.411 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:36:06.412 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:36:06.412 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:36:06.412 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:36:06.689 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:36:06.689 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:36:06.690 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:36:06.690 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:36:06.691 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:36:06.897 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:36:06.898 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:36:06.913 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:36:06.914 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:36:07.149 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:36:07.149 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:36:07.159 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:36:07.159 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:36:29.050 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:36:29.056 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:36:29.057 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:36:29.056 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:36:29.057 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:36:29.057 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:36:29.057 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:36:30.085 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:36:30.085 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:36:30.087 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:36:30.096 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Response body: {}
+17:36:30.096 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:36:30.098 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:36:30.098 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:36:30.098 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:36:30.411 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:36:30.412 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:36:30.413 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:36:30.413 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:36:30.413 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:36:30.556 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:36:30.557 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:36:30.571 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:36:30.571 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:36:30.874 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:36:30.875 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:36:30.884 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:36:30.884 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:39:24.165 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'Todo API Tests' with parallel mode:classes
+17:39:24.168 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@6dab9b6d priority: 10
+17:39:24.191 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoTest]
+17:39:24.197 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetTodoById()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:39:24.198 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetTodosByUserId()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:39:24.198 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetAllTodos()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:39:24.199 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetNonExistentTodo()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:39:24.205 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.207 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.208 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.208 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.208 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.209 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.209 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.209 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.212 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.base.setUp()
+17:39:24.212 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+17:39:24.217 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+17:39:24.218 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.219 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.219 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.219 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.219 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.220 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.222 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.222 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.223 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.223 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.223 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoCreateTest]
+17:39:24.224 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithValidData()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:39:24.225 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithMissingRequiredFields()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:39:24.225 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithEmptyTitle()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:39:24.225 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.226 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.226 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.226 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.226 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.226 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.227 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.227 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.227 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.227 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.228 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.228 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.228 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.228 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.228 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.229 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.229 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.229 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.229 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.229 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.229 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoUpdateTest]
+17:39:24.230 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateTodoWithInvalidData()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:39:24.231 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateNonExistentTodo()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:39:24.231 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateTodoFullUpdate()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:39:24.231 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.231 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.232 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.232 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.232 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.232 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.232 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.233 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.233 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.233 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.235 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.setupTestData()
+17:39:24.235 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.235 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.235 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.236 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.236 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.236 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.236 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.236 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.237 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetTodoById()
+17:39:24.237 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetTodosByUserId()
+17:39:24.237 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetAllTodos()
+17:39:24.238 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetNonExistentTodo()
+17:39:24.238 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithValidData()
+17:39:24.238 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithMissingRequiredFields()
+17:39:24.238 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithEmptyTitle()
+17:39:24.238 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateTodoWithInvalidData()
+17:39:24.238 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateNonExistentTodo()
+17:39:24.238 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateTodoFullUpdate()
+17:39:24.239 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+17:39:24.240 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+17:39:24.241 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.241 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.241 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:39:24.241 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:39:24.245 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/src/test/resources/testng.xml
+
+17:39:24.245 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
+17:39:24.247 [main] INFO  org.testng.internal.Utils - [TestRunner] Running test Todo API Tests on 3  classes,  included groups:[] excluded groups:[]
+17:39:24.248 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoTest
+17:39:24.248 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@37091312]
+17:39:24.248 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetTodoById()[pri:0, instance:com.apitest.tests.TodoTest@37091312]
+17:39:24.248 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetTodosByUserId()[pri:0, instance:com.apitest.tests.TodoTest@37091312]
+17:39:24.248 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetAllTodos()[pri:0, instance:com.apitest.tests.TodoTest@37091312]
+17:39:24.248 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetNonExistentTodo()[pri:0, instance:com.apitest.tests.TodoTest@37091312]
+17:39:24.248 [main] INFO  org.testng.TestClass - ======
+17:39:24.248 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoCreateTest
+17:39:24.248 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@584f54e6]
+17:39:24.248 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithValidData()[pri:0, instance:com.apitest.tests.TodoCreateTest@584f54e6]
+17:39:24.248 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithMissingRequiredFields()[pri:0, instance:com.apitest.tests.TodoCreateTest@584f54e6]
+17:39:24.248 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithEmptyTitle()[pri:0, instance:com.apitest.tests.TodoCreateTest@584f54e6]
+17:39:24.249 [main] INFO  org.testng.TestClass - ======
+17:39:24.249 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoUpdateTest
+17:39:24.249 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:24.249 [main] INFO  org.testng.TestClass -   @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:24.249 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateTodoWithInvalidData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:24.249 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateNonExistentTodo()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:24.249 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateTodoFullUpdate()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:24.249 [main] INFO  org.testng.TestClass - ======
+17:39:24.252 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+17:39:24.255 [main] INFO  org.testng.internal.Utils - [TestRunner] Starting executor for test Todo API Tests with time out:2147483647 milliseconds.
+17:39:24.256 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@584f54e6] for class [TestClass name=class com.apitest.tests.TodoCreateTest]
+17:39:24.257 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@37091312] for class [TestClass name=class com.apitest.tests.TodoTest]
+17:39:24.256 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:39:24.258 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:24.258 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@584f54e6]
+17:39:24.259 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@37091312]
+17:39:24.529 [TestNG-test=Todo API Tests-3] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:39:24.529 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:39:24.529 [TestNG-test=Todo API Tests-2] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:39:24.530 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:39:24.534 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:24.534 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:39:24.534 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:39:24.534 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:24.534 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:39:24.534 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:39:24.535 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithEmptyTitle
+17:39:24.535 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoTest.testGetAllTodos
+17:39:24.535 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with empty title
+17:39:24.535 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request with empty title
+17:39:24.535 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:39:24.536 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:39:24.536 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:39:24.536 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:39:25.583 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:39:25.584 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:39:25.610 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Invoking com.apitest.tests.TodoUpdateTest.testUpdateNonExistentTodo
+17:39:25.610 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update non-existent todo
+17:39:25.610 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request to update non-existent todo
+17:39:25.610 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/999999
+17:39:25.663 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:39:25.667 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:39:25.668 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:39:25.668 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithMissingRequiredFields
+17:39:25.668 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with missing required fields
+17:39:25.668 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request with incomplete todo data
+17:39:25.669 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:39:25.761 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:39:25.762 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:39:25.762 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:25.762 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:25.763 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoTest.testGetNonExistentTodo
+17:39:25.763 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:39:25.763 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:39:25.763 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:39:26.240 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:39:26.241 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Response body: {}
+17:39:26.241 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:39:26.241 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:26.242 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:26.242 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoTest.testGetTodoById
+17:39:26.242 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:39:26.242 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:39:26.243 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:39:26.370 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:39:26.371 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] No configuration methods found
+17:39:26.372 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:39:26.372 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:39:26.373 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:26.373 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:39:26.373 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:39:26.409 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:39:26.410 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:39:26.410 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:39:26.410 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithValidData
+17:39:26.410 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with valid data
+17:39:26.410 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request to create new todo
+17:39:26.410 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:39:26.698 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:39:26.698 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:39:26.700 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:39:26.700 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:39:26.700 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:26.700 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:26.701 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoTest.testGetTodosByUserId
+17:39:26.701 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:39:26.701 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:39:26.701 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:39:26.815 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Invoking com.apitest.tests.TodoUpdateTest.testUpdateTodoFullUpdate
+17:39:26.815 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update todo with all fields
+17:39:26.815 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request to update todo
+17:39:26.815 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/1
+17:39:26.975 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:39:26.975 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Converting response to Todo object
+17:39:26.976 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying created todo properties
+17:39:26.976 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Test completed successfully
+17:39:26.977 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:39:26.977 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:39:27.192 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:39:27.192 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:39:27.200 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:39:27.200 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:39:27.201 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:27.201 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:39:27.692 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:39:27.692 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Converting response to Todo object
+17:39:27.694 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying updated todo properties
+17:39:27.694 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Test completed successfully
+17:39:27.694 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] No configuration methods found
+17:39:27.695 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:39:27.695 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:39:27.695 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@5d8bafa9]
+17:39:27.696 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:39:27.696 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:39:28.157 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] Invoking com.apitest.tests.TodoUpdateTest.testUpdateTodoWithInvalidData
+17:39:28.158 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update todo with invalid data
+17:39:28.158 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request with invalid data
+17:39:28.158 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/1
+17:39:28.715 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:39:28.716 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] No configuration methods found
+17:39:28.716 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 1689924104] No configuration methods found
+17:39:28.734 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite/Todo API Tests.xml
+17:39:28.735 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite exists: true
+17:39:28.735 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite/Todo API Tests.xml
+17:39:28.740 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@784c3487: 0 ms
+17:39:28.741 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/toc.html
+17:39:28.741 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.742 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/toc.html
+17:39:28.742 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/Todo API Tests.properties
+17:39:28.742 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.742 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/Todo API Tests.properties
+17:39:28.742 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/index.html
+17:39:28.742 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.742 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/index.html
+17:39:28.743 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/main.html
+17:39:28.743 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.743 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/main.html
+17:39:28.743 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/groups.html
+17:39:28.743 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.743 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/groups.html
+17:39:28.745 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/classes.html
+17:39:28.745 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.746 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/classes.html
+17:39:28.746 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/reporter-output.html
+17:39:28.746 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.746 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/reporter-output.html
+17:39:28.746 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/methods-not-run.html
+17:39:28.746 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.746 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/methods-not-run.html
+17:39:28.748 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/testng.xml.html
+17:39:28.748 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:39:28.748 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/testng.xml.html
+17:39:28.748 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/index.html
+17:39:28.748 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old exists: true
+17:39:28.748 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/index.html
+17:39:28.748 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4218500f: 8 ms
+17:39:28.767 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@5c530d1e: 19 ms
+17:39:28.771 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/testng-failed.xml
+17:39:28.771 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports exists: true
+17:39:28.772 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/testng-failed.xml
+17:39:28.772 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite/testng-failed.xml
+17:39:28.772 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite exists: true
+17:39:28.773 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite/testng-failed.xml
+17:39:28.773 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@14d14731: 6 ms
+17:39:28.779 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@793138bd: 6 ms
+17:39:28.783 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@13f17eb4: 4 ms
+17:39:28.786 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoCreateTest.xml
+17:39:28.787 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:39:28.787 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoCreateTest.xml
+17:39:28.789 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoUpdateTest.xml
+17:39:28.789 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:39:28.790 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoUpdateTest.xml
+17:39:28.790 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoTest.xml
+17:39:28.791 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:39:28.791 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoTest.xml
+17:39:28.791 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7ec3394b: 8 ms
+17:40:47.307 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'Todo API Tests' with parallel mode:classes
+17:40:47.310 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@4b79ac84 priority: 10
+17:40:47.338 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoTest]
+17:40:47.344 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetTodoById()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:40:47.344 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetTodosByUserId()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:40:47.345 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetAllTodos()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:40:47.345 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetNonExistentTodo()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:40:47.351 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.353 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+17:40:47.354 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.354 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.355 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.355 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.355 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.355 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.358 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.base.setUp()
+17:40:47.358 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+17:40:47.364 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+17:40:47.364 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.364 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.365 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.365 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.365 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.365 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.366 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.367 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.367 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.367 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.367 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoCreateTest]
+17:40:47.368 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithValidData()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:40:47.369 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithMissingRequiredFields()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:40:47.369 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithEmptyTitle()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:40:47.369 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.370 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.370 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.370 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.371 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.371 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.371 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.371 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.372 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.372 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.372 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.373 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.373 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.373 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.373 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.373 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.374 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.374 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.374 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.374 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.374 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoUpdateTest]
+17:40:47.375 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateTodoWithInvalidData()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:40:47.375 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateNonExistentTodo()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:40:47.376 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateTodoFullUpdate()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:40:47.376 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.376 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.377 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.377 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.377 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.377 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.377 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.377 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.378 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.378 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.379 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.379 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.379 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.379 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.379 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.379 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.380 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.setupTestData()
+17:40:47.380 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.380 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.380 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.381 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.381 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.381 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.382 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.382 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.382 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetTodoById()
+17:40:47.383 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetTodosByUserId()
+17:40:47.383 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetAllTodos()
+17:40:47.383 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetNonExistentTodo()
+17:40:47.383 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithValidData()
+17:40:47.383 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithMissingRequiredFields()
+17:40:47.383 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithEmptyTitle()
+17:40:47.383 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateTodoWithInvalidData()
+17:40:47.384 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateNonExistentTodo()
+17:40:47.384 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateTodoFullUpdate()
+17:40:47.384 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+17:40:47.386 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+17:40:47.386 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.387 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.387 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:40:47.387 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:40:47.391 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/src/test/resources/testng.xml
+
+17:40:47.391 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
+17:40:47.393 [main] INFO  org.testng.internal.Utils - [TestRunner] Running test Todo API Tests on 3  classes,  included groups:[] excluded groups:[]
+17:40:47.393 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoTest
+17:40:47.393 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:40:47.394 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetTodoById()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:40:47.394 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetTodosByUserId()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:40:47.394 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetAllTodos()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:40:47.394 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetNonExistentTodo()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:40:47.394 [main] INFO  org.testng.TestClass - ======
+17:40:47.394 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoCreateTest
+17:40:47.394 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:40:47.394 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithValidData()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:40:47.394 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithMissingRequiredFields()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:40:47.394 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithEmptyTitle()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:40:47.394 [main] INFO  org.testng.TestClass - ======
+17:40:47.394 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoUpdateTest
+17:40:47.394 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:47.394 [main] INFO  org.testng.TestClass -   @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:47.395 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateTodoWithInvalidData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:47.395 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateNonExistentTodo()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:47.395 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateTodoFullUpdate()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:47.395 [main] INFO  org.testng.TestClass - ======
+17:40:47.398 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+17:40:47.401 [main] INFO  org.testng.internal.Utils - [TestRunner] Starting executor for test Todo API Tests with time out:2147483647 milliseconds.
+17:40:47.402 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:40:47.402 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85] for class [TestClass name=class com.apitest.tests.TodoTest]
+17:40:47.402 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157] for class [TestClass name=class com.apitest.tests.TodoCreateTest]
+17:40:47.404 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:47.404 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:40:47.404 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:40:47.681 [TestNG-test=Todo API Tests-3] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:40:47.681 [TestNG-test=Todo API Tests-2] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:40:47.681 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:40:47.682 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:40:47.686 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:47.686 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:40:47.686 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:40:47.686 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:47.686 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:40:47.686 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:40:47.687 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking com.apitest.tests.TodoTest.testGetAllTodos
+17:40:47.687 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithEmptyTitle
+17:40:47.687 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:40:47.687 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with empty title
+17:40:47.688 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:40:47.688 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request with empty title
+17:40:47.688 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:40:47.688 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:40:48.742 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:40:48.744 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:40:48.769 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoUpdateTest.testUpdateNonExistentTodo
+17:40:48.769 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update non-existent todo
+17:40:48.769 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request to update non-existent todo
+17:40:48.769 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/999999
+17:40:48.832 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:40:48.832 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Converting response to Todo object
+17:40:48.833 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying created todo properties
+17:40:48.834 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Test completed successfully
+17:40:48.835 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:40:48.835 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:40:48.835 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithMissingRequiredFields
+17:40:48.835 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with missing required fields
+17:40:48.835 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request with incomplete todo data
+17:40:48.835 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:40:48.926 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:40:48.927 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:40:48.927 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:48.928 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:48.928 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking com.apitest.tests.TodoTest.testGetNonExistentTodo
+17:40:48.928 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:40:48.928 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:40:48.928 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:40:49.406 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:40:49.406 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Response body: {}
+17:40:49.406 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:40:49.407 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:49.407 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:49.407 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking com.apitest.tests.TodoTest.testGetTodoById
+17:40:49.408 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:40:49.408 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:40:49.408 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:40:49.547 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:40:49.547 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Test completed successfully
+17:40:49.547 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:40:49.547 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:40:49.548 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:40:49.548 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:49.548 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:40:49.548 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:40:49.613 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:40:49.613 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Converting response to Todo object
+17:40:49.614 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying created todo properties
+17:40:49.614 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Test completed successfully
+17:40:49.614 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:40:49.615 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:40:49.615 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithValidData
+17:40:49.615 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with valid data
+17:40:49.615 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request to create new todo
+17:40:49.615 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:40:49.917 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:40:49.917 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:40:49.918 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:40:49.918 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:40:49.919 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:49.919 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:49.919 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking com.apitest.tests.TodoTest.testGetTodosByUserId
+17:40:49.919 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:40:49.919 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:40:49.920 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:40:49.984 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoUpdateTest.testUpdateTodoFullUpdate
+17:40:49.984 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update todo with all fields
+17:40:49.985 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request to update todo
+17:40:49.985 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/1
+17:40:50.201 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:40:50.202 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Converting response to Todo object
+17:40:50.203 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying created todo properties
+17:40:50.203 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Test completed successfully
+17:40:50.204 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:40:50.204 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:40:50.379 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:40:50.379 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:40:50.387 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:40:50.388 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:40:50.388 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:50.388 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:40:50.730 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:40:50.730 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Converting response to Todo object
+17:40:50.731 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying updated todo properties
+17:40:50.731 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Test completed successfully
+17:40:50.731 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:40:50.732 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:40:50.732 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:40:50.732 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:40:50.732 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:40:50.732 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:40:51.205 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoUpdateTest.testUpdateTodoWithInvalidData
+17:40:51.206 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update todo with invalid data
+17:40:51.206 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request with invalid data
+17:40:51.206 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/1
+17:40:51.762 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:40:51.762 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Converting response to Todo object
+17:40:51.764 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying updated todo properties
+17:40:51.764 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Test completed successfully
+17:40:51.764 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:40:51.765 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:40:51.778 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite/Todo API Tests.xml
+17:40:51.778 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite exists: true
+17:40:51.778 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite/Todo API Tests.xml
+17:40:51.781 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2dd29a59: 0 ms
+17:40:51.782 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/toc.html
+17:40:51.782 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.782 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/toc.html
+17:40:51.782 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/Todo API Tests.properties
+17:40:51.782 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.783 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/Todo API Tests.properties
+17:40:51.783 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/index.html
+17:40:51.783 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.783 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/index.html
+17:40:51.783 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/main.html
+17:40:51.783 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.784 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/main.html
+17:40:51.784 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/groups.html
+17:40:51.784 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.784 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/groups.html
+17:40:51.786 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/classes.html
+17:40:51.786 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.786 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/classes.html
+17:40:51.787 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/reporter-output.html
+17:40:51.787 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.787 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/reporter-output.html
+17:40:51.787 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/methods-not-run.html
+17:40:51.787 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.787 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/methods-not-run.html
+17:40:51.789 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/testng.xml.html
+17:40:51.789 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:40:51.790 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/testng.xml.html
+17:40:51.790 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/index.html
+17:40:51.790 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old exists: true
+17:40:51.790 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/index.html
+17:40:51.790 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5829e4f4: 9 ms
+17:40:51.808 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6e6d5d29: 18 ms
+17:40:51.809 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5c530d1e: 1 ms
+17:40:51.814 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@696f0212: 5 ms
+17:40:51.816 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@14d14731: 2 ms
+17:40:51.817 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoTest.xml
+17:40:51.817 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:40:51.817 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoTest.xml
+17:40:51.818 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoUpdateTest.xml
+17:40:51.818 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:40:51.818 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoUpdateTest.xml
+17:40:51.819 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoCreateTest.xml
+17:40:51.819 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:40:51.819 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoCreateTest.xml
+17:40:51.819 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3f07b12c: 3 ms
+17:41:09.150 [main] INFO  org.testng.internal.Utils - [TestRunner] Running the tests in 'Todo API Tests' with parallel mode:classes
+17:41:09.152 [main] INFO  org.testng.internal.Utils - [RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@4b79ac84 priority: 10
+17:41:09.174 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoTest]
+17:41:09.180 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetTodoById()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:41:09.180 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetTodosByUserId()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:41:09.181 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetAllTodos()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:41:09.181 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoTest.testGetNonExistentTodo()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoTest
+17:41:09.186 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.188 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.188 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.188 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.189 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.189 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.189 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.190 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.194 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.base.setUp()
+17:41:09.194 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+17:41:09.200 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+17:41:09.200 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.200 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.201 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.201 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.201 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.201 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.203 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.203 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.203 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.203 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.203 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoCreateTest]
+17:41:09.204 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithValidData()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:41:09.205 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithMissingRequiredFields()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:41:09.205 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoCreateTest.testCreateTodoWithEmptyTitle()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoCreateTest
+17:41:09.205 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.206 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.206 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.206 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.206 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.206 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.207 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.207 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.207 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.207 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.208 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.208 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.208 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.208 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.208 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.209 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.209 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.209 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.209 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.209 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.209 [main] INFO  org.testng.internal.Utils - [TestClass] Creating TestClass for [ClassImpl class=com.apitest.tests.TodoUpdateTest]
+17:41:09.211 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateTodoWithInvalidData()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:41:09.211 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateNonExistentTodo()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:41:09.212 [main] INFO  org.testng.internal.Utils - [TestClass] Adding method TodoUpdateTest.testUpdateTodoFullUpdate()[pri:0, instance:null] on TestClass class com.apitest.tests.TodoUpdateTest
+17:41:09.212 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.212 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.212 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.213 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.213 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.213 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.213 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.213 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.214 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.214 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.214 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.215 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.215 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.215 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.216 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.216 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.216 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.setupTestData()
+17:41:09.217 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.217 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.217 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.217 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.218 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.218 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.218 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.219 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.219 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetTodoById()
+17:41:09.220 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetTodosByUserId()
+17:41:09.220 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetAllTodos()
+17:41:09.220 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testGetNonExistentTodo()
+17:41:09.220 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithValidData()
+17:41:09.220 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithMissingRequiredFields()
+17:41:09.220 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testCreateTodoWithEmptyTitle()
+17:41:09.221 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateTodoWithInvalidData()
+17:41:09.221 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateNonExistentTodo()
+17:41:09.221 [main] INFO  org.testng.internal.Utils - [XmlMethodSelector] Including method com.apitest.tests.testUpdateTodoFullUpdate()
+17:41:09.221 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+17:41:09.223 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+17:41:09.224 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.224 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.224 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+17:41:09.224 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+17:41:09.228 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/src/test/resources/testng.xml
+
+17:41:09.228 [main] INFO  org.testng.internal.Utils - [SuiteRunner] Created 1 TestRunners
+17:41:09.230 [main] INFO  org.testng.internal.Utils - [TestRunner] Running test Todo API Tests on 3  classes,  included groups:[] excluded groups:[]
+17:41:09.230 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoTest
+17:41:09.230 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:41:09.230 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetTodoById()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:41:09.230 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetTodosByUserId()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:41:09.230 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetAllTodos()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:41:09.231 [main] INFO  org.testng.TestClass -     @Test TodoTest.testGetNonExistentTodo()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:41:09.231 [main] INFO  org.testng.TestClass - ======
+17:41:09.231 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoCreateTest
+17:41:09.231 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:41:09.231 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithValidData()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:41:09.231 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithMissingRequiredFields()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:41:09.231 [main] INFO  org.testng.TestClass -     @Test TodoCreateTest.testCreateTodoWithEmptyTitle()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:41:09.231 [main] INFO  org.testng.TestClass - ======
+17:41:09.231 [main] INFO  org.testng.TestClass - ===== Test class
+com.apitest.tests.TodoUpdateTest
+17:41:09.231 [main] INFO  org.testng.TestClass -   @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:09.231 [main] INFO  org.testng.TestClass -   @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:09.231 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateTodoWithInvalidData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:09.231 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateNonExistentTodo()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:09.232 [main] INFO  org.testng.TestClass -     @Test TodoUpdateTest.testUpdateTodoFullUpdate()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:09.232 [main] INFO  org.testng.TestClass - ======
+17:41:09.234 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 1 ms.
+17:41:09.238 [main] INFO  org.testng.internal.Utils - [TestRunner] Starting executor for test Todo API Tests with time out:2147483647 milliseconds.
+17:41:09.239 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85] for class [TestClass name=class com.apitest.tests.TodoTest]
+17:41:09.239 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:41:09.239 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Keeping method BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157] for class [TestClass name=class com.apitest.tests.TodoCreateTest]
+17:41:09.241 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoCreateTest@2a640157]
+17:41:09.241 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:09.241 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking @BeforeClass BaseTest.setUp()[pri:0, instance:com.apitest.tests.TodoTest@5fe1ce85]
+17:41:09.496 [TestNG-test=Todo API Tests-1] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:41:09.497 [TestNG-test=Todo API Tests-3] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:41:09.496 [TestNG-test=Todo API Tests-2] INFO  com.apitest.base.BaseTest - Test setup completed with base URL: https://jsonplaceholder.typicode.com
+17:41:09.497 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:41:09.501 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:41:09.501 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:09.501 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:41:09.501 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:09.502 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:41:09.502 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:41:09.502 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithEmptyTitle
+17:41:09.502 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking com.apitest.tests.TodoTest.testGetAllTodos
+17:41:09.502 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get all todos
+17:41:09.502 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with empty title
+17:41:09.502 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos
+17:41:09.502 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request with empty title
+17:41:09.503 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos
+17:41:09.503 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:41:10.499 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:41:10.501 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:41:10.525 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoUpdateTest.testUpdateNonExistentTodo
+17:41:10.525 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update non-existent todo
+17:41:10.525 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request to update non-existent todo
+17:41:10.525 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/999999
+17:41:10.667 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying todos list is not empty
+17:41:10.667 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:41:10.668 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:10.669 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:10.669 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking com.apitest.tests.TodoTest.testGetNonExistentTodo
+17:41:10.669 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get non-existent todo
+17:41:10.670 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/999999
+17:41:10.670 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/999999
+17:41:10.774 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:41:10.774 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Converting response to Todo object
+17:41:10.775 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying created todo properties
+17:41:10.775 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Test completed successfully
+17:41:10.775 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:41:10.776 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:41:10.776 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithMissingRequiredFields
+17:41:10.776 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with missing required fields
+17:41:10.776 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request with incomplete todo data
+17:41:10.776 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:41:11.118 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:41:11.119 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Test completed successfully
+17:41:11.119 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:41:11.119 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:41:11.120 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:41:11.120 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:11.120 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:41:11.120 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:41:11.149 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying response for non-existent todo
+17:41:11.150 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Response body: {}
+17:41:11.150 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:41:11.150 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:11.150 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:11.151 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking com.apitest.tests.TodoTest.testGetTodoById
+17:41:11.151 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get Todo by ID 1
+17:41:11.151 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos/1
+17:41:11.151 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:41:11.340 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:41:11.341 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Converting response to Todo object
+17:41:11.342 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying created todo properties
+17:41:11.342 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Test completed successfully
+17:41:11.343 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:41:11.343 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:41:11.344 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] Invoking com.apitest.tests.TodoCreateTest.testCreateTodoWithValidData
+17:41:11.344 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Starting test: Create todo with valid data
+17:41:11.344 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Making POST request to create new todo
+17:41:11.344 [TestNG-test=Todo API Tests-2] INFO  com.apitest.clients.RestClient - Making POST request to: /todos
+17:41:11.582 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoUpdateTest.testUpdateTodoFullUpdate
+17:41:11.582 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update todo with all fields
+17:41:11.582 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request to update todo
+17:41:11.583 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/1
+17:41:11.647 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:41:11.647 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to Todo object
+17:41:11.648 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying Todo properties
+17:41:11.648 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:41:11.649 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:11.649 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:11.649 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] Invoking com.apitest.tests.TodoTest.testGetTodosByUserId
+17:41:11.649 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Starting test: Get todos by user ID 1
+17:41:11.649 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Making request to endpoint: /todos?userId=1
+17:41:11.649 [TestNG-test=Todo API Tests-1] INFO  com.apitest.clients.RestClient - Making GET request to: /todos?userId=1
+17:41:12.088 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying response status code
+17:41:12.088 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Converting response to Todo object
+17:41:12.089 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Verifying created todo properties
+17:41:12.089 [TestNG-test=Todo API Tests-2] INFO  com.apitest.tests.TodoCreateTest - Test completed successfully
+17:41:12.089 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:41:12.090 [TestNG-test=Todo API Tests-2] INFO  org.testng.internal.Utils - [Invoker 221861886] No configuration methods found
+17:41:12.108 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying status code
+17:41:12.108 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Converting response to List of Todos
+17:41:12.116 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Verifying all todos belong to user 1
+17:41:12.117 [TestNG-test=Todo API Tests-1] INFO  com.apitest.tests.TodoTest - Test completed successfully
+17:41:12.117 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:12.117 [TestNG-test=Todo API Tests-1] INFO  org.testng.internal.Utils - [Invoker 1166106620] No configuration methods found
+17:41:12.168 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:41:12.168 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Converting response to Todo object
+17:41:12.169 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying updated todo properties
+17:41:12.169 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Test completed successfully
+17:41:12.169 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:41:12.169 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:41:12.170 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Keeping method TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44] for class [TestClass name=class com.apitest.tests.TodoUpdateTest]
+17:41:12.170 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking @BeforeMethod TodoUpdateTest.setupTestData()[pri:0, instance:com.apitest.tests.TodoUpdateTest@52851b44]
+17:41:12.170 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Setting up test data - Getting existing todo with ID: 1
+17:41:12.171 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making GET request to: /todos/1
+17:41:12.654 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] Invoking com.apitest.tests.TodoUpdateTest.testUpdateTodoWithInvalidData
+17:41:12.654 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Starting test: Update todo with invalid data
+17:41:12.655 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Making PUT request with invalid data
+17:41:12.655 [TestNG-test=Todo API Tests-3] INFO  com.apitest.clients.RestClient - Making PUT request to: /todos/1
+17:41:13.209 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying response status code
+17:41:13.210 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Converting response to Todo object
+17:41:13.212 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Verifying updated todo properties
+17:41:13.213 [TestNG-test=Todo API Tests-3] INFO  com.apitest.tests.TodoUpdateTest - Test completed successfully
+17:41:13.213 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:41:13.213 [TestNG-test=Todo API Tests-3] INFO  org.testng.internal.Utils - [Invoker 697508322] No configuration methods found
+17:41:13.231 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite/Todo API Tests.xml
+17:41:13.231 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite exists: true
+17:41:13.232 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/Todo API Test Suite/Todo API Tests.xml
+17:41:13.234 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2dd29a59: 0 ms
+17:41:13.235 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/toc.html
+17:41:13.236 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.236 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/toc.html
+17:41:13.236 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/Todo API Tests.properties
+17:41:13.236 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.236 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/Todo API Tests.properties
+17:41:13.236 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/index.html
+17:41:13.236 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.236 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/index.html
+17:41:13.237 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/main.html
+17:41:13.237 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.237 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/main.html
+17:41:13.237 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/groups.html
+17:41:13.237 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.237 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/groups.html
+17:41:13.240 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/classes.html
+17:41:13.240 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.240 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/classes.html
+17:41:13.240 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/reporter-output.html
+17:41:13.240 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.241 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/reporter-output.html
+17:41:13.241 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/methods-not-run.html
+17:41:13.241 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.241 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/methods-not-run.html
+17:41:13.243 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/testng.xml.html
+17:41:13.243 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite exists: true
+17:41:13.243 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/Todo API Test Suite/testng.xml.html
+17:41:13.243 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/index.html
+17:41:13.243 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old exists: true
+17:41:13.243 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/old/index.html
+17:41:13.243 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5829e4f4: 9 ms
+17:41:13.260 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6e6d5d29: 17 ms
+17:41:13.260 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5c530d1e: 0 ms
+17:41:13.264 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@696f0212: 4 ms
+17:41:13.266 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@14d14731: 2 ms
+17:41:13.267 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoTest.xml
+17:41:13.268 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:41:13.268 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoTest.xml
+17:41:13.268 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoUpdateTest.xml
+17:41:13.268 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:41:13.268 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoUpdateTest.xml
+17:41:13.269 [main] INFO  org.testng.internal.Utils - [[Utils]] Attempting to create /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoCreateTest.xml
+17:41:13.269 [main] INFO  org.testng.internal.Utils - [[Utils]]   Directory /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports exists: true
+17:41:13.269 [main] INFO  org.testng.internal.Utils - Creating /Users/kumarsandeep/Desktop/Sample projects Github/api-test-framework/target/surefire-reports/junitreports/TEST-com.apitest.tests.TodoCreateTest.xml
+17:41:13.269 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3f07b12c: 3 ms
